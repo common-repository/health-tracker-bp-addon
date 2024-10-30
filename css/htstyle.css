@@ -1,0 +1,90 @@
+#buddypress div#item-nav ul #health-tracker-personal-li a:before {
+    content: "";
+    background: url('../img/icon.png') no-repeat left top;
+    margin-left: 15px;
+    width: 69px;
+    height: 52px;
+    transition: none;
+}
+
+#buddypress div#item-nav ul li#health-tracker-personal-li.selected a:before {
+    background: url('../img/icon.png') no-repeat left -55px;
+    transition: none;
+}
+
+#buddypress div#item-nav ul li#health-tracker-personal-li:hover a:before {
+    background: url('../img/icon.png') no-repeat left -55px;
+    transition: none;
+}
+
+.radios {
+    display: inline;
+}
+
+.radios input[type="radio"] {
+    display:none; 
+}
+
+.radios label {
+    display: inline-block;
+    padding: 4px 11px;
+    color: #00a1ff;
+    font-weight: bold;
+}
+
+.radios label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.radios input[type="radio"]:checked + label { 
+    text-decoration: underline;
+}
+
+#buddypress div#item-nav ul li a:hover:before {
+    color: #00a1ff !important;
+}
+
+#buddypress div#item-nav ul li.current a:before {
+    color: #00a1ff !important;
+}
+
+#item-body {
+    color: #000000 !important;
+}
+
+#item-body a {
+    color: #000000 !important;
+}
+
+#item-body a:hover {
+    color: #00a1ff !important;
+}
+
+#item-body ul li.selected a {
+    color: #00a1ff !important;
+}
+
+#pie-area, #line-area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.none {
+    border: 0 !important;
+    outline: 0;
+}
+
+.none:disabled {
+    background: transparent !important;
+}
+
+.btn-action {
+    background: #F5CD6D !important;
+    color: #555 !important;
+}
+
+.hide {
+    display: none;
+}
